@@ -1,0 +1,29 @@
+{
+    "name": "brocard/sweet-alerts",
+    "description": "Show alerts with javascript plugin sweetalert",
+    "keywords": [
+        "brocardjr",
+        "laravel",
+        "laravel 5.x",
+        "package"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrocardJr\\Sweet\\Alerts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yusniel Brocard",
+            "email": "brocard@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    }
+}
